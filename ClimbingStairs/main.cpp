@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 class Solution {
 public:
@@ -19,3 +20,10 @@ public:
         
     }
 };
+
+int main(){
+    Solution climb;
+    cout<< climb.climbStairs(4) << endl;
+    return 0;
+
+}
